@@ -7,7 +7,8 @@
 #include <cstdint>
 #include <initializer_list>
 
-namespace CryptoNote {
+namespace 
+  const char CRYPTONOTE_NAME[] = "BlockChainCoin";
 namespace parameters {
 
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
